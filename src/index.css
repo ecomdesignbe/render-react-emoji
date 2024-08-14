@@ -1,0 +1,38 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff4e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #000;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="text"] {
+  padding: 12px;
+  width: 300px;
+  font-size: 16px;
+  border: 1px solid #d9a066;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #664400;
+  background-color: #f5d5ab;
+  outline: none;
+}
+
+input[type="text"]::placeholder {
+  color: #b3885a;
+}
